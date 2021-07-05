@@ -1,0 +1,15 @@
+// variables
+$primary: #4808db;
+
+
+// mixins
+@mixin flexbox (){
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+// imports
+@import "setup";
+@import "skills";

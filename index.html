@@ -5,14 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/3305f500e4.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
   <title>Carlie Dixon</title>
 </head>
 <body>
   <header>
     <nav class="wrapper">
-      <li>
-        <p>logo</p>
+      <li class="logoFlexCont">
+        <div class="logoImg">
+          <img src="./assets/CDixonDevLogo.png" alt="">
+        </div>
         <p class="logo">Carlie Dixon</p>
       </li>
       <li>
@@ -24,14 +29,14 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="contactLi"><a href="#contact">Contact</a></li>
         </ul>
       </li>
     </nav>
     <div class="heading">
       <h1>Hi. I'm Carlie</h1>
       <h2>I'm a Front-end Web Developer</h2>
-      <button class="learnMore">Learn More</button>
+      <a href="#portfolio" class="learnMore">See My Work</a>
     </div>
   </header>
 
@@ -59,60 +64,60 @@
       </div>
     </section>
 
-    <section id="skills wrapper">
+    <section id="skills" class="wrapper">
       <h3>Skills</h3>
       <h4>Some things I know</h4>
-      <div class="skillsFlexCont">
-        <div class="skillsInnerFlexCont">
+      <ul class="skillsFlexCont">
+        <li class="skillsInnerFlexCont">
           <i class="fab fa-html5"></i>
           <p>HTML5</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fab fa-css3-alt"></i>
           <p>CSS3</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fab fa-sass"></i>
           <p>Sass</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fab fa-js-square"></i>
           <p>JavaScript</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fab fa-react"></i>
           <p>React</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fab fa-github"></i>
           <p>GitHub</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fas fa-bed"></i>
           <p>RESTful APIs</p>
-        </div>
-        <div class="skillsInnerFlexCont">
-          <div class="skillLogo">
+        </li>
+        <li class="skillsInnerFlexCont">
+          <li class="skillLogo">
             <img src="./assets/jquery.png" alt="jquery">
-          </div>
+          </li>
           <p>JQuery</p>
-        </div>
-        <div class="skillsInnerFlexCont">
-          <div class="skillLogo">
+        </li>
+        <li class="skillsInnerFlexCont">
+          <li class="skillLogo">
             <img src="./assets/firebase.png" alt="">
-          </div>
+          </li>
           <p>Firebase</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fas fa-mobile-alt"></i>
           <p>Responsive Design</p>
-        </div>
-        <div class="skillsInnerFlexCont">
+        </li>
+        <li class="skillsInnerFlexCont">
           <i class="fas fa-universal-access"></i>
           <p>Accessible Websites</p>
-        </div>
-        <div class="skillsInnerFlexCont"></div>
-      </div>
+        </li>
+        <li class="skillsInnerFlexCont"></li>
+      </ul>
     </section>
     <section id="portfolio">
       <div class="wrapper">

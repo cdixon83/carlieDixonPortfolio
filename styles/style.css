@@ -237,7 +237,7 @@ html {
 }
 
 .wrapper {
-  max-width: 1500px;
+  max-width: 1000px;
   width: 85%;
   margin: 0 auto;
 }
@@ -245,7 +245,189 @@ html {
 img {
   display: block;
   max-width: 100%;
+  max-height: 100%;
   height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+p,
+h2,
+h3,
+h4,
+button {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+
+p,
+a {
+  font-size: 0.8rem;
+  color: #06032f;
+  line-height: 1.3rem;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #4807db;
+  line-height: 1.3rem;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #06032f;
+  line-height: 1.3rem;
+  letter-spacing: 1.5px;
+}
+
+header {
+  background: url(../assets/Hero-NoText.jpg) no-repeat;
+  background-size: contain;
+  height: 60vh;
+  background-position-y: 55px;
+  background-position-x: center;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.logoFlexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.logoFlexCont p {
+  text-transform: uppercase;
+}
+
+.logoImg {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.flexContNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flexContNav li {
+  padding: 0 15px;
+  position: relative;
+}
+.flexContNav a {
+  font-size: 0.8rem;
+}
+.flexContNav .contactLi {
+  padding-right: 0;
+}
+.flexContNav li:after {
+  content: "";
+  width: 75%;
+  height: 8px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  z-index: -1;
+}
+.flexContNav li:hover:after {
+  background-color: #00e3ff;
+}
+
+.ham {
+  position: absolute;
+  background-color: transparent;
+  width: 10%;
+  top: 15px;
+  right: 15px;
+}
+.ham i {
+  color: #06032f;
+}
+
+.show {
+  display: none;
+}
+
+.heading {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: #f1f2f4;
+  line-height: 1.3rem;
+  letter-spacing: 1.5px;
+  margin: 26vh 0 27px 0;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #f1f2f4;
+  line-height: 1.3rem;
+  letter-spacing: 1.5px;
+  margin-left: 66px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.learnMore {
+  color: #f1f2f4;
+  background-color: #fb37bf;
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: #4807db 2px solid;
+  -webkit-box-shadow: 1px 2px #fb37bf;
+          box-shadow: 1px 2px #fb37bf;
 }
 
 .skillsFlexCont {
@@ -256,8 +438,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

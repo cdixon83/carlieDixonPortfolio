@@ -1,0 +1,95 @@
+header {
+  background: url(../assets/Hero-NoText.jpg) no-repeat;
+  background-size: contain;
+  height: 60vh;
+  background-position-y: 55px;
+  background-position-x: center;
+}
+
+header nav {
+  @include flexbox();
+  padding-top: 10px;
+}
+
+.logoFlexCont {
+  @include flexbox();
+  p {
+    text-transform: uppercase;
+  }
+}
+
+.logoImg {
+  height: 20px;
+  margin-right: 8px;
+}
+
+// ul inside nav containing a
+.flexContNav {
+  @include flexbox();
+  align-items: center;
+  li {
+    padding: 0 15px;
+    position: relative;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  .contactLi {
+    padding-right: 0;
+  }
+  li:after {
+    content: "";
+    width: 75%;
+    height: 8px;
+    background-color: transparent;
+    position:absolute;
+    bottom: 5px;
+    left: 25%;
+    z-index: -1;
+  }
+  li:hover:after {
+    background-color: $tertAccent;
+  }
+}
+
+//nav toggle button
+.ham {
+  position: absolute;
+  background-color: transparent;
+  width: 10%;
+  top: 15px;
+  right: 15px;
+  i {
+    color: $darkest;
+  }
+}
+
+.show {
+  display: none;
+}
+
+.heading {
+  text-align: center;
+}
+
+h1 {
+  @include fontStyle (3.2rem, $lightest);
+  margin: 26vh 0 27px 0;
+}
+
+h2 {
+  @include fontStyle (1rem, $lightest);
+  margin-left: 66px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.learnMore {
+  color: $lightest;
+  background-color: $secAccent;
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: $primAccent 2px solid;
+  box-shadow: 1px 2px $secAccent;
+}

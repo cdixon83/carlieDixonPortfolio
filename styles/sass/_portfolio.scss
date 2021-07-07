@@ -3,7 +3,6 @@
 }
 
 .portCont {
-  position: relative;
   p {
     color: $secLightest;
   }
@@ -14,18 +13,18 @@
 
 .portTextCont {
   width: 50%;
-  position: absolute;
-  left: 8.5%;
-  top: -45px;
+  padding-bottom: 50px;
+  h4 {
+    padding-bottom: 20px;
+  }
 }
 
 .portAnchors {
   @include flexbox (flex-start);
 }
 
-.proTextCont {
+.projectTextCont {
   padding-top: 40px;
-  margin-left: 8%;
   h4 {
     padding: 20px 0;
   }
@@ -36,4 +35,50 @@
 
 .builtWith {
   text-transform: uppercase;
+}
+
+.pinkBG {
+  width: 100%;
+}
+
+.project1,
+.project3 {
+  position: relative;
+}
+
+.blueDots {
+  position: absolute;
+  z-index: -1;
+  top: -152px;
+  right: -26px;
+}
+
+.goodVibeDT {
+  position: absolute;
+  z-index: 1;
+  top: 75px;
+  left: -80px;
+  width: 70%;
+}
+
+.project2,
+.project3 {
+  padding-top: 75px;
+}
+
+.purpleSquiggles {
+  position: absolute;
+  z-index: 1;
+  bottom: -42px;
+  right: -49px;
+  width: 25%;
+}
+
+.helperDT {
+  position: absolute;
+  z-index: 1;
+  top: -42px;
+  right: -49px;
+  width: 50%;
+  box-shadow: 1px 1px 50px $secLightest;
 }

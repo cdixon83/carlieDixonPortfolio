@@ -267,6 +267,7 @@ p,
 h2,
 h3,
 h4,
+h5,
 button {
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
@@ -580,9 +581,6 @@ h2 {
   padding-top: 175px;
 }
 
-.portCont {
-  position: relative;
-}
 .portCont p {
   color: #787787;
 }
@@ -592,9 +590,10 @@ h2 {
 
 .portTextCont {
   width: 50%;
-  position: absolute;
-  left: 8.5%;
-  top: -45px;
+  padding-bottom: 50px;
+}
+.portTextCont h4 {
+  padding-bottom: 20px;
 }
 
 .portAnchors {
@@ -612,17 +611,170 @@ h2 {
       flex-wrap: wrap;
 }
 
-.proTextCont {
+.projectTextCont {
   padding-top: 40px;
-  margin-left: 8%;
 }
-.proTextCont h4 {
+.projectTextCont h4 {
   padding: 20px 0;
 }
-.proTextCont li {
+.projectTextCont li {
   padding: 30px 30px 30px 0;
 }
 
 .builtWith {
   text-transform: uppercase;
+}
+
+.pinkBG {
+  width: 100%;
+}
+
+.project1,
+.project3 {
+  position: relative;
+}
+
+.blueDots {
+  position: absolute;
+  z-index: -1;
+  top: -152px;
+  right: -26px;
+}
+
+.goodVibeDT {
+  position: absolute;
+  z-index: 1;
+  top: 75px;
+  left: -80px;
+  width: 70%;
+}
+
+.project2,
+.project3 {
+  padding-top: 75px;
+}
+
+.purpleSquiggles {
+  position: absolute;
+  z-index: 1;
+  bottom: -42px;
+  right: -49px;
+  width: 25%;
+}
+
+.helperDT {
+  position: absolute;
+  z-index: 1;
+  top: -42px;
+  right: -49px;
+  width: 50%;
+  -webkit-box-shadow: 1px 1px 50px #787787;
+          box-shadow: 1px 1px 50px #787787;
+}
+
+.contact {
+  background-color: #f1f2f4;
+  margin-bottom: 100px;
+}
+.contact h2 {
+  color: #06032f;
+}
+.contact a:hover {
+  color: #4807db;
+}
+
+.contactFlexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+.contactInfo {
+  width: 60%;
+}
+.contactInfo h2 {
+  margin: 15px 0;
+}
+.contactInfo p {
+  margin: 5px 0;
+}
+
+.footerLogo {
+  width: 20%;
+}
+
+.moreContact {
+  width: 25%;
+}
+
+.email,
+.appointment {
+  padding-left: 45px;
+}
+
+.socialsNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 45px;
+}
+.socialsNav a {
+  font-size: 0.9rem;
+}
+
+.contactTextCont {
+  position: relative;
+}
+
+.socialsNav:before,
+.email:before,
+.appointment:before {
+  content: "";
+  width: 20px;
+  height: 1.5px;
+  background-color: #787787;
+  position: absolute;
+}
+
+.socialsNav:before {
+  left: 0px;
+  top: 88px;
+}
+
+.email:before {
+  left: 0px;
+  top: 33px;
+}
+
+.appointment:before {
+  left: 0px;
+  top: 149px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  color: #787787;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+  margin-top: 15px;
 }

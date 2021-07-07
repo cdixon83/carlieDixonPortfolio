@@ -630,6 +630,7 @@ h2 {
 }
 
 .project1,
+.project2,
 .project3 {
   position: relative;
 }
@@ -665,8 +666,8 @@ h2 {
 .helperDT {
   position: absolute;
   z-index: 1;
-  top: -42px;
-  right: -49px;
+  top: 135px;
+  right: -8%;
   width: 50%;
   -webkit-box-shadow: 1px 1px 50px #787787;
           box-shadow: 1px 1px 50px #787787;
@@ -777,4 +778,19 @@ h5 {
   line-height: 1rem;
   letter-spacing: 1.3px;
   margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .heroImage {
+    height: 400px;
+  }
+}
+@media (max-width: 750px) {
+  .heroImage {
+    height: 300px;
+  }
+
+  h1 {
+    margin-top: 10%;
+  }
 }

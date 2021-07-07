@@ -28,8 +28,13 @@ $main: 'Josefin Sans', sans-serif;
   letter-spacing: $space;
 }
 
+@mixin anchorHover () {
+  border-bottom: 1.5px solid $tertAccent;
+}
+
 // imports
 @import "setup";
 @import "header";
 @import "skills";
 @import "about";
+@import "portfolio";

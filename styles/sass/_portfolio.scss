@@ -1,0 +1,39 @@
+.portfolio {
+  padding-top: 175px;
+}
+
+.portCont {
+  position: relative;
+  p {
+    color: $secLightest;
+  }
+  a:hover {
+    @include anchorHover;
+  }
+}
+
+.portTextCont {
+  width: 50%;
+  position: absolute;
+  left: 8.5%;
+  top: -45px;
+}
+
+.portAnchors {
+  @include flexbox (flex-start);
+}
+
+.proTextCont {
+  padding-top: 40px;
+  margin-left: 8%;
+  h4 {
+    padding: 20px 0;
+  }
+  li {
+    padding: 30px 30px 30px 0;
+  }
+}
+
+.builtWith {
+  text-transform: uppercase;
+}

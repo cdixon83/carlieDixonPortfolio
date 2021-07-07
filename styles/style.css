@@ -563,7 +563,7 @@ h2 {
   border-bottom: 1px solid transparent;
 }
 .outterContDev a:hover {
-  border-bottom: 1px solid #00e3ff;
+  border-bottom: 1.5px solid #00e3ff;
 }
 
 .imgContDev {
@@ -574,4 +574,55 @@ h2 {
   top: 50px;
   -webkit-box-shadow: 1px 1px 50px #787787;
           box-shadow: 1px 1px 50px #787787;
+}
+
+.portfolio {
+  padding-top: 175px;
+}
+
+.portCont {
+  position: relative;
+}
+.portCont p {
+  color: #787787;
+}
+.portCont a:hover {
+  border-bottom: 1.5px solid #00e3ff;
+}
+
+.portTextCont {
+  width: 50%;
+  position: absolute;
+  left: 8.5%;
+  top: -45px;
+}
+
+.portAnchors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.proTextCont {
+  padding-top: 40px;
+  margin-left: 8%;
+}
+.proTextCont h4 {
+  padding: 20px 0;
+}
+.proTextCont li {
+  padding: 30px 30px 30px 0;
+}
+
+.builtWith {
+  text-transform: uppercase;
 }

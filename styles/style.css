@@ -237,7 +237,7 @@ html {
 }
 
 .wrapper {
-  max-width: 1000px;
+  max-width: 1150px;
   width: 85%;
   margin: 0 auto;
 }
@@ -293,14 +293,6 @@ h4 {
   color: #06032f;
   line-height: 1.6rem;
   letter-spacing: 1.3px;
-}
-
-header {
-  background: url(../assets/Hero-NoText.jpg) no-repeat;
-  background-size: contain;
-  height: 70vh;
-  background-position-y: 55px;
-  background-position-x: center;
 }
 
 header nav {
@@ -399,7 +391,17 @@ header nav {
   display: none;
 }
 
-.heading {
+.heroImage {
+  background-image: url(../assets/Hero-NoText.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.heroContents {
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -408,7 +410,7 @@ h1 {
   color: #f1f2f4;
   line-height: 1rem;
   letter-spacing: 1.3px;
-  margin: 26vh 0 27px 0;
+  margin: 20% 0 27px 0;
 }
 
 h2 {

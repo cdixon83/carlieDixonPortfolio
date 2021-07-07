@@ -16,7 +16,7 @@
     <nav class="wrapper">
       <li class="logoFlexCont">
         <div class="logoImg">
-          <img src="./assets/CDixonDevLogo.png" alt="">
+          <img src="./assets/CDixonDevLogo.png" alt="Carlie Dixon logo resembling c/d">
         </div>
         <p class="logo">Carlie Dixon</p>
       </li>
@@ -133,10 +133,14 @@
           <h4>The work I've done</h4>
           <p>Each of the projects below was created in less than a week while attending bootcamp full time. This should give you an idea of how quickly I can pick up new concepts and meet tight deadlines.</p>
         </div>
-        <div class="projectOne">
-          <img src="./assets/Portfolio1.png" alt="Image of my app showing both the desktop and mobile views">
+
+        <!-- project 1 -->
+        <div class="project1">
+          <img class="pinkBG" src="./assets/Portfolio1-PinkBackground.jpg" alt="Image of my app showing both the desktop and mobile views">
+          <img class="blueDots"src="./assets/Portfolio1-Dots.png" alt="Decorative blue dots.">
+          <img class="goodVibeDT" src="./assets/Portfolio1-Computer.png" alt="Desktop view of my app.">
         </div>
-        <div class="proTextCont">
+        <div class="projectTextCont">
           <p class="builtWith">HTML5 / React / JavaScript / Sass / Firebase</p>
           <h4>Good Vibes Only</h4>
           <p>Building positivity through social media. A site that allows you to leave anonymous messages for your friends so they know how amazing they are.</p>
@@ -149,16 +153,69 @@
             </li>
           </ul>
         </div>
+
+        <!-- project 2 -->
+        <div class="project2">
+          <img src="./assets/Portfolio2.png" alt="Image of my app showing both the desktop view">
+        </div>
+        <div class="projectTextCont">
+          <p class="builtWith">HTML5 / React / JavaScript / Sass / Restfull API</p>
+          <h4>Haikus Highway</h4>
+          <p>Using Datamuse RESTful API, our app assist users in building a haiku. With detailed logic and error handling, users are required to stick to the syllable restraints set by the haiku. Built with the amazing: Barish Bozkurt, Colin Caldwell, Syedah Maham</p>
+          <ul class="portAnchors">
+            <li>
+              <a href="https://github.com/project-4-haikus-highway/haikusHighway">See GitHub<i
+                  class="fas fa-arrow-right"></i></a>
+            </li>
+            <li>
+              <a href="https://hhighway.netlify.app/">View Live<i class="fas fa-arrow-right"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- project 3 -->
+        <div class="project3">
+          <img src="./assets/Portfolio2-TealBackground.jpg" alt="Showing my site with both desktop view and mobile view">
+          <img class="purpleSquiggles" src="./assets/Portfolio2-PurpleSquiggle.png" alt="Decorative purple squiggles">
+          <img class="helperDT" src="./assets/Portfolio2-Desktop.jpg" alt="Desktop view of my Sanctuary Helpers website">
+        </div>
+        <div class="projectTextCont">
+          <p class="builtWith">HTML5 / Sass / JavaScript</p>
+          <h4>Sanctuary Helpers</h4>
+          <p>Multi-page website built from PSD client brief and design files. Site is full responsive across devices.
+          </p>
+          <ul class="portAnchors">
+            <li>
+              <a href="https://github.com/cdixon83/carlie-dixon-project1">See GitHub<i
+                  class="fas fa-arrow-right"></i></a>
+            </li>
+            <li>
+              <a href="https://cdixon83.github.io/carlie-dixon-project1/">View Live<i
+                  class="fas fa-arrow-right"></i></a>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
     </section>
-    <section id="contact">
-      <div class="contactFlexCont">
-        <div class="contactInfo">
-          <h2>Carlie Dixon</h2>
-          <p>Whether you are a potential client, employer or a fellow web developer I am available to connect. I would love to chat about my projects, my journey into web development or share some coding puns.</p>
-          <p>Learn more about my journey into web development on my <a
-              href="https://cdixon83.medium.com/the-chipmunk-who-changed-my-life-6a19746a2a45">BootCamp Blog</a></p>
+  </main>
+  <footer id="contact" class="contact">
+    <div class="contactFlexCont wrapper">
+      <div class="contactInfo">
+        <div class="footerLogo">
+          <img src="./assets/CDixonDevLogo.png" alt="Carlie Dixon logo resembling c/d">
+        </div>
+        <h2>Carlie Dixon</h2>
+        <p>Whether you are a potential client, employer or a fellow web developer I am available to connect. I would love to chat about my projects, my journey into web development or share some coding puns.</p>
+        <p>Learn more about my journey into web development on my <a href="https://cdixon83.medium.com/the-chipmunk-who-changed-my-life-6a19746a2a45">BootCamp Blog</a></p>
+      </div>
+
+      <div class="moreContact">
+        <div class="contactTextCont">
+          <h5>E-mail</h5>
+          <a class="email" href="mailto:cdixon83@gmail.com">cdixon83@gmail.com</a>
+          <h5>Social</h5>
           <nav class="socials">
             <ul class="socialsNav">
               <li><a href="https://github.com/cdixon83"><i class="fab fa-github-alt"></i></a></li>
@@ -168,25 +225,11 @@
               <li><a href="mailto:cdixon83@gmail.com"><i class="fas fa-envelope"></i></a></li>
             </ul>
           </nav>
-        </div>
-        <div class="moreContact">
-          <ul>
-            <li>
-              <p>E-mail</p>
-              <a href="mailto:cdixon83@gmail.com">cdixon83@gmail.com</a>
-            </li>
-            <li>
-              <p>Twitter</p>
-              <a href="https://twitter.com/CarlD83">@CarlD83</a>
-            </li>
-            <li>
-              <p>Calendly</p>
-              <a href="https://calendly.com/carliedixon">Book an appointment</a>
-            </li>
-          </ul>
+          <h5>Book an Appointment</h5>
+          <a class="appointment" href="https://calendly.com/carliedixon">Calendly</a>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </footer>
 </body>
 </html>

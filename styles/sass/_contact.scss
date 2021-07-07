@@ -1,0 +1,83 @@
+.contact {
+  background-color: $lightest;
+  margin-bottom: 100px;
+  h2 {
+    color: $darkest;
+  }
+  a:hover {
+    color: $primAccent;
+  }
+}
+
+.contactFlexCont {
+  @include flexbox ();
+  padding: 100px 0;
+}
+
+.contactInfo {
+  width: 60%;
+  h2 {
+    margin: 15px 0;
+  }
+  p {
+    margin: 5px 0;
+  }
+}
+
+.footerLogo {
+  width: 20%;
+}
+
+.moreContact {
+  width: 25%;
+}
+
+.email,
+.appointment {
+  padding-left: 45px;
+}
+
+.socialsNav {
+  @include flexbox();
+  padding-left: 45px;
+  a {
+    font-size: 0.9rem;
+  }
+}
+
+.contactTextCont {
+  position: relative;
+}
+
+.socialsNav:before,
+.email:before,
+.appointment:before {
+    content: "";
+    width: 20px;
+    height: 1.5px;
+    background-color: $secLightest;
+    position:absolute;
+}
+
+.socialsNav:before {
+  left: 0px;
+  top: 88px;
+}
+
+.email:before {
+  left: 0px;
+  top: 33px;
+}
+
+.appointment:before {
+  left: 0px;
+  top: 149px;
+}
+
+h5 {
+  text-transform: uppercase;
+  @include fontStyle (0.5rem, $secLightest);
+  margin-top: 15px;
+}
+
+

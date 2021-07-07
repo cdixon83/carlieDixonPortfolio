@@ -42,9 +42,19 @@
 }
 
 .project1,
+.project2,
 .project3 {
   position: relative;
 }
+
+// .divider:after {
+//   content: "";
+//   width: 50%;
+//   height: 2px;
+//   background-color: $tertAccent;
+//   position: absolute;
+//   left: 25%;
+// }
 
 .blueDots {
   position: absolute;
@@ -77,8 +87,10 @@
 .helperDT {
   position: absolute;
   z-index: 1;
-  top: -42px;
-  right: -49px;
+  top: 135px;
+  right: -8%;
   width: 50%;
   box-shadow: 1px 1px 50px $secLightest;
 }
+
+

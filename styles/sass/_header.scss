@@ -1,7 +1,7 @@
 header {
   background: url(../assets/Hero-NoText.jpg) no-repeat;
   background-size: contain;
-  height: 60vh;
+  height: 70vh;
   background-position-y: 55px;
   background-position-x: center;
 }
@@ -15,6 +15,7 @@ header nav {
   @include flexbox();
   p {
     text-transform: uppercase;
+    padding-top: 2px;
   }
 }
 

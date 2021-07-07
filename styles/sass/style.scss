@@ -21,7 +21,7 @@ $main: 'Josefin Sans', sans-serif;
   flex-wrap: wrap;
 }
 
-@mixin fontStyle ($size, $color:$darkest, $height:1.3rem, $space:1.5px){
+@mixin fontStyle ($size, $color:$darkest, $height:1rem, $space:1.3px){
   font-size: $size;
   color: $color;
   line-height: $height;
@@ -32,3 +32,4 @@ $main: 'Josefin Sans', sans-serif;
 @import "setup";
 @import "header";
 @import "skills";
+@import "about";

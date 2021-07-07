@@ -1,0 +1,77 @@
+.about {
+  margin-top: 60px;
+  background-color: $lightest;
+}
+
+.aboutFlexCont {
+  @include flexbox;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
+}
+
+.aboutInnerFlexCont {
+  @include flexbox;
+}
+
+.aboutTextCont {
+  width: 55%;
+  position: relative;
+  p {
+    margin: 10px 0 10px 40px;
+    color: $secLightest;
+  }
+}
+
+.aboutOne:before {
+  content: "";
+  width: 2px;
+  height: 95px;
+  background-color: $secLightest;
+  position:absolute;
+  left: 0px;
+}
+
+.imgContSkate {
+  width: 40%;
+  position: relative;
+  img {
+    position: absolute;
+    top: -63px;
+    left: 20px;
+  }
+}
+
+.skateTitle {
+  position: absolute;
+  transform: rotate(270deg);
+  font-size: 0.5rem;
+  left: -107px;
+  top: 43px;
+  color: $secLightest;
+}
+
+.outterContDev {
+  margin: 0 auto;
+  max-width: 45%;
+  position: relative;
+  a {
+    position: absolute;
+    right: -110px;
+    bottom: 20%;
+    border-bottom: 1px solid transparent;
+  }
+  a:hover {
+    border-bottom: 1px solid $tertAccent;
+  }
+}
+
+.imgContDev {
+  position: relative;
+  img {
+    position: relative;
+    top: 50px;
+    box-shadow: 1px 1px 50px $secLightest;
+  }
+}

@@ -274,30 +274,31 @@ button {
 
 p,
 a {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: #06032f;
-  line-height: 1.3rem;
-  letter-spacing: 1.5px;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 0.7rem;
   color: #4807db;
-  line-height: 1.3rem;
-  letter-spacing: 1.5px;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+  padding-bottom: 8px;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #06032f;
-  line-height: 1.3rem;
-  letter-spacing: 1.5px;
+  line-height: 1.6rem;
+  letter-spacing: 1.3px;
 }
 
 header {
   background: url(../assets/Hero-NoText.jpg) no-repeat;
   background-size: contain;
-  height: 60vh;
+  height: 70vh;
   background-position-y: 55px;
   background-position-x: center;
 }
@@ -334,6 +335,7 @@ header nav {
 }
 .logoFlexCont p {
   text-transform: uppercase;
+  padding-top: 2px;
 }
 
 .logoImg {
@@ -404,16 +406,16 @@ header nav {
 h1 {
   font-size: 3.2rem;
   color: #f1f2f4;
-  line-height: 1.3rem;
-  letter-spacing: 1.5px;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
   margin: 26vh 0 27px 0;
 }
 
 h2 {
   font-size: 1rem;
   color: #f1f2f4;
-  line-height: 1.3rem;
-  letter-spacing: 1.5px;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
   margin-left: 66px;
   margin-bottom: 25px;
   font-weight: 600;
@@ -447,4 +449,107 @@ h2 {
 
 .skillsInnerFlexCont {
   width: 28%;
+}
+
+.about {
+  margin-top: 60px;
+  background-color: #f1f2f4;
+}
+
+.aboutFlexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
+}
+
+.aboutInnerFlexCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutTextCont {
+  width: 55%;
+  position: relative;
+}
+.aboutTextCont p {
+  margin: 10px 0 10px 40px;
+  color: #787787;
+}
+
+.aboutOne:before {
+  content: "";
+  width: 2px;
+  height: 95px;
+  background-color: #787787;
+  position: absolute;
+  left: 0px;
+}
+
+.imgContSkate {
+  width: 40%;
+  position: relative;
+}
+.imgContSkate img {
+  position: absolute;
+  top: -63px;
+  left: 20px;
+}
+
+.skateTitle {
+  position: absolute;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  font-size: 0.5rem;
+  left: -107px;
+  top: 43px;
+  color: #787787;
+}
+
+.outterContDev {
+  margin: 0 auto;
+  max-width: 45%;
+  position: relative;
+}
+.outterContDev a {
+  position: absolute;
+  right: -110px;
+  bottom: 20%;
+  border-bottom: 1px solid transparent;
+}
+.outterContDev a:hover {
+  border-bottom: 1px solid #00e3ff;
+}
+
+.imgContDev {
+  position: relative;
+}
+.imgContDev img {
+  position: relative;
+  top: 50px;
+  -webkit-box-shadow: 1px 1px 50px #787787;
+          box-shadow: 1px 1px 50px #787787;
 }

@@ -46,13 +46,14 @@ button {
 
 p,
 a {
-  @include fontStyle (0.8rem);
+  @include fontStyle (0.6rem);
 }
 
 h3 {
-  @include fontStyle (1rem, $primAccent);
+  @include fontStyle (0.7rem, $primAccent);
+  padding-bottom: 8px;
 }
 
 h4 {
-  @include fontStyle (2rem)
+  @include fontStyle (1.5rem, $darkest, 1.6rem)
 }

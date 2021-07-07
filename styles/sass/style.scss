@@ -14,11 +14,11 @@ $main: 'Josefin Sans', sans-serif;
 
 
 // mixins
-@mixin flexbox (){
+@mixin flexbox ($justCont:space-between, $direction:row, $wrap:wrap) {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: $justCont;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
 }
 
 @mixin fontStyle ($size, $color:$darkest, $height:1rem, $space:1.3px){

@@ -1,7 +1,28 @@
+.skills {
+  padding-top: 125px;
+}
+
+.skillsTextCont {
+  margin-left: 18%;
+  margin-bottom: 30px;
+}
+
 .skillsFlexCont {
-  @include flexbox;
+  @include flexbox(center);
 }
 
 .skillsInnerFlexCont {
   width: 28%;
+  text-align: center;
+  margin: 25px 0;
+  i {
+    font-size: 100px;
+    color: $primAccent;
+  }
 }
+
+.skillLogo {
+  width: 100px;
+  margin: 0 auto;
+}
+

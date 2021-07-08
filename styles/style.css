@@ -415,7 +415,7 @@ h1 {
   color: #f1f2f4;
   line-height: 1rem;
   letter-spacing: 1.3px;
-  margin: 20% 0 27px 0;
+  margin: 200px 0 27px 0;
 }
 
 h2 {
@@ -787,6 +787,10 @@ h5 {
 @media (max-width: 1000px) {
   .heroImage {
     height: 400px;
+  }
+
+  h1 {
+    margin-top: 125px;
   }
 }
 @media (max-width: 750px) {

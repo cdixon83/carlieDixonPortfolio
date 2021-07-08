@@ -25,6 +25,15 @@
     padding-top: 90px;
   }
 
+  .contactInfo,
+  .moreContact {
+    width: 45%;
+  }
+
+  .moreContact {
+    padding-top: 56px;
+  }
+
 
 }
 
@@ -85,9 +94,10 @@
 
   .outterContDev {
     margin: 0 0 0 auto;
+    width: 50%;
     a {
       right: 0;
-      bottom: 100%;
+      top: -55px;
     }
   }
 
@@ -95,13 +105,16 @@
     width: 100%;
   }
 
-  .imgContSkate img {
-    position: relative;
-    top: 0;
+  .imgContSkate {
+    width: 50%;
+    img {
+      position: relative;
+      top: 0;
+    }
   }
 
   .imgContDev img {
-    top: 0;
+    top: -26px;
   }
 
   .skillsFlexCont {
@@ -118,6 +131,11 @@
     width: 60%;
   }
 
+  .blueDots {
+    right: 0;
+    width: 45%;
+  }
+
   .helperDT {
     top: 46px;
     right: 0;
@@ -127,4 +145,62 @@
     right: -2%;
   }
 
+}
+
+@media (max-width: 500px) {
+  .skillsInnerFlexCont i {
+    font-size: 50px;
+  }
+
+  .skillLogo {
+    width: 50px;
+  }
+
+  .contactInfo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .moreContact {
+    width: 56%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  header h2 {
+    text-align: right;
+    margin-right: 3%;
+  }
+
+  .aboutTextCont p {
+    margin-left: 10px;
+  }
+
+  .imgContSkate p {
+    display: none;
+  }
+
+  .skillsTextCont {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  .portTextCont {
+    width: 100%;
+  }
+
+  .blueDots {
+    top: -32px;
+  }
+  
+  .purpleSquiggles {
+    bottom: -11px;
+  }
 }

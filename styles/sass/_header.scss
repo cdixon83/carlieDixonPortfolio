@@ -46,14 +46,21 @@ header nav {
 }
 
 //nav toggle button
-.ham {
+.hamButton {
   position: absolute;
   background-color: transparent;
+  border: none;
   width: 10%;
   top: 15px;
   right: 15px;
   i {
     color: $darkest;
+  }
+}
+
+.hamButton:hover {
+  i {
+    color: $secAccent;
   }
 }
 

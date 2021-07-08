@@ -268,7 +268,9 @@ h2,
 h3,
 h4,
 h5,
-button {
+button,
+input,
+textarea {
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
 }
@@ -437,6 +439,11 @@ h2 {
   border-bottom: #4807db 2px solid;
   -webkit-box-shadow: 1px 2px #fb37bf;
           box-shadow: 1px 2px #fb37bf;
+}
+
+.learnMore:hover {
+  background-color: #00e3ff;
+  color: #06032f;
 }
 
 .skills {
@@ -782,6 +789,62 @@ h5 {
   line-height: 1rem;
   letter-spacing: 1.3px;
   margin-top: 15px;
+}
+
+.blogLink {
+  text-decoration: underline;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+form .name,
+form .formEmail {
+  width: calc(50% - 7.5px);
+}
+form .name {
+  margin-right: 15px;
+}
+form .message {
+  width: 100%;
+  margin: 15px 0;
+}
+form input,
+form textarea {
+  width: 100%;
+  background-color: #00e3ff;
+  border: #06032f solid 1px;
+}
+
+.send {
+  border: none;
+  color: #f1f2f4;
+  background-color: #fb37bf;
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: #4807db 2px solid;
+  -webkit-box-shadow: 1px 2px #fb37bf;
+          box-shadow: 1px 2px #fb37bf;
+  width: 175px;
+}
+
+.send:hover {
+  background-color: #4807db;
 }
 
 @media (max-width: 1000px) {

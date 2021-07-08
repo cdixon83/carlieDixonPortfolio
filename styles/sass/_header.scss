@@ -95,11 +95,10 @@ h2 {
 }
 
 .learnMore {
-  color: $lightest;
-  background-color: $secAccent;
-  font-size: 0.75rem;
-  padding: 10px;
-  border-radius: 20px;
-  border-bottom: $primAccent 2px solid;
-  box-shadow: 1px 2px $secAccent;
+  @include buttonStyle
+}
+
+.learnMore:hover {
+  background-color: $tertAccent;
+  color: $darkest;
 }

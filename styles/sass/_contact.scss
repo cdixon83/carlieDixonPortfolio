@@ -80,4 +80,40 @@ h5 {
   margin-top: 15px;
 }
 
+.blogLink {
+  text-decoration: underline;
+}
 
+form {
+  @include flexbox(center);
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  .name,
+  .formEmail {
+    width: calc(50% - 7.5px);
+  }
+  .name {
+    margin-right: 15px;
+  }
+  .message {
+    width: 100%;
+    margin: 15px 0;
+  }
+  input,
+  textarea {
+    width: 100%;
+    background-color: $tertAccent;
+    border: $darkest solid 1px;
+  }
+}
+
+.send {
+  border: none;
+  @include buttonStyle;
+  width: 175px;
+}
+
+.send:hover {
+  background-color: $primAccent;
+}

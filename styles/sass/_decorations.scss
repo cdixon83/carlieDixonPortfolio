@@ -1,0 +1,91 @@
+.about,
+.skills,
+.portTextCont,
+.gvText,
+.project2,
+.project3,
+.contactFlexCont {
+  position: relative;
+}
+
+.circleBlueAbout {
+  position: absolute;
+  width: 5%;
+  right: 9%;
+  bottom: 270px;
+}
+
+.diamondPurpleAbout {
+  position: absolute;
+  width: 15%;
+  right: -6%;
+  bottom: 55px;
+}
+
+.squigglePinkAbout {
+  position: absolute;
+  width: 15%;
+  left: 11%;
+  bottom: -15px;
+  transform: rotate(-65deg)
+}
+
+.squiggleBlueSkills {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 20%;
+}
+
+
+.trianglePinkPortfolio {
+  position: absolute;
+  bottom: -5px;
+  left: 10%;
+  width: 13%;
+  z-index: 10;
+  transform: rotate(15deg);
+}
+
+.circlePurplePortfolio {
+  position: absolute;
+  right: 0;
+  top:56px;
+  width: 5%;
+}
+
+.squigglePurplePortfolio {
+  position: absolute;
+  right: 40%;
+  top: 38px;
+  width: 15%;
+}
+
+.trianglePinkPortfolio2 {
+  position: absolute;
+  right: 60%;
+  top: 0px;
+  width: 15%;
+}
+
+.squiggleBlueFooter {
+  position: absolute;
+  top: -24px;
+  right: 55%;
+  width: 15%;
+  transform: rotate(-60deg);
+}
+
+.trianglePinkFooter {
+  position: absolute;
+  top: 40px;
+  right: 136px;
+  width: 7%;
+}
+
+.circlePurpleFooter {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 5%;
+}

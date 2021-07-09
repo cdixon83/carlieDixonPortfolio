@@ -117,3 +117,20 @@ form {
 .send:hover {
   background-color: $primAccent;
 }
+
+form {
+  position: relative;
+  input,
+  textarea {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+.squigglesPurpleFooter {
+  position: absolute;
+  z-index: 0;
+  left: -40px;
+  bottom: 60px;
+  width: 20%;
+}

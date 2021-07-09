@@ -298,6 +298,100 @@ h4 {
   letter-spacing: 1.3px;
 }
 
+.about,
+.skills,
+.portTextCont,
+.gvText,
+.project2,
+.project3,
+.contactFlexCont {
+  position: relative;
+}
+
+.circleBlueAbout {
+  position: absolute;
+  width: 5%;
+  right: 9%;
+  bottom: 270px;
+}
+
+.diamondPurpleAbout {
+  position: absolute;
+  width: 15%;
+  right: -6%;
+  bottom: 55px;
+}
+
+.squigglePinkAbout {
+  position: absolute;
+  width: 15%;
+  left: 11%;
+  bottom: -15px;
+  -webkit-transform: rotate(-65deg);
+          transform: rotate(-65deg);
+}
+
+.squiggleBlueSkills {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 20%;
+}
+
+.trianglePinkPortfolio {
+  position: absolute;
+  bottom: -5px;
+  left: 10%;
+  width: 13%;
+  z-index: 10;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.circlePurplePortfolio {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 5%;
+}
+
+.squigglePurplePortfolio {
+  position: absolute;
+  right: 40%;
+  top: 38px;
+  width: 15%;
+}
+
+.trianglePinkPortfolio2 {
+  position: absolute;
+  right: 60%;
+  top: 0px;
+  width: 15%;
+}
+
+.squiggleBlueFooter {
+  position: absolute;
+  top: -24px;
+  right: 55%;
+  width: 15%;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.trianglePinkFooter {
+  position: absolute;
+  top: 40px;
+  right: 136px;
+  width: 7%;
+}
+
+.circlePurpleFooter {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 5%;
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -847,6 +941,23 @@ form textarea {
   background-color: #4807db;
 }
 
+form {
+  position: relative;
+}
+form input,
+form textarea {
+  position: relative;
+  z-index: 10;
+}
+
+.squigglesPurpleFooter {
+  position: absolute;
+  z-index: 0;
+  left: -40px;
+  bottom: 60px;
+  width: 20%;
+}
+
 @media (max-width: 1000px) {
   .heroImage {
     height: 400px;
@@ -884,6 +995,10 @@ form textarea {
 
   .moreContact {
     padding-top: 56px;
+  }
+
+  .squigglesPurpleFooter {
+    display: none;
   }
 }
 @media (max-width: 600px) {
@@ -994,6 +1109,15 @@ form textarea {
   .purpleSquiggles {
     right: -2%;
   }
+
+  .diamondPurpleAbout {
+    right: 20%;
+    bottom: -32px;
+  }
+
+  .circleBlueAbout {
+    bottom: 370px;
+  }
 }
 @media (max-width: 500px) {
   .skillsInnerFlexCont i {
@@ -1050,5 +1174,9 @@ form textarea {
 
   .purpleSquiggles {
     bottom: -11px;
+  }
+
+  .circleBlueAbout {
+    bottom: 30%;
   }
 }

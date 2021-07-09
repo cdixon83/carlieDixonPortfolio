@@ -38,6 +38,9 @@
     padding-top: 56px;
   }
 
+  .squigglesPurpleFooter {
+    display: none;
+  }
 
 }
 
@@ -149,6 +152,15 @@
     right: -2%;
   }
 
+  .diamondPurpleAbout {
+    right: 20%;
+    bottom: -32px;
+  }
+
+  .circleBlueAbout {
+    bottom: 370px;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -206,5 +218,10 @@
   
   .purpleSquiggles {
     bottom: -11px;
+  }
+
+  // decorations
+  .circleBlueAbout {
+    bottom: 30%;
   }
 }

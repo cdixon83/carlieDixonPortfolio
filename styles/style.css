@@ -821,6 +821,12 @@ h2 {
 
 .moreContact {
   width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .email,
@@ -852,7 +858,6 @@ h2 {
 }
 
 .socialsNav:before,
-.email:before,
 .appointment:before {
   content: "";
   width: 20px;
@@ -863,17 +868,12 @@ h2 {
 
 .socialsNav:before {
   left: 0px;
-  top: 88px;
-}
-
-.email:before {
-  left: 0px;
   top: 33px;
 }
 
 .appointment:before {
   left: 0px;
-  top: 149px;
+  top: 88px;
 }
 
 h5 {

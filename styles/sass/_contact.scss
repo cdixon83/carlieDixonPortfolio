@@ -30,6 +30,8 @@
 
 .moreContact {
   width: 25%;
+  display: flex;
+  align-items: center;
 }
 
 .email,
@@ -50,7 +52,6 @@
 }
 
 .socialsNav:before,
-.email:before,
 .appointment:before {
     content: "";
     width: 20px;
@@ -61,17 +62,12 @@
 
 .socialsNav:before {
   left: 0px;
-  top: 88px;
-}
-
-.email:before {
-  left: 0px;
   top: 33px;
 }
 
 .appointment:before {
   left: 0px;
-  top: 149px;
+  top: 88px;
 }
 
 h5 {

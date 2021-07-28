@@ -13,6 +13,7 @@
   width: 5%;
   right: 9%;
   bottom: 270px;
+  animation: grow 10s linear infinite;
 }
 
 .diamondPurpleAbout {
@@ -20,6 +21,7 @@
   width: 15%;
   right: -6%;
   bottom: 55px;
+  animation: spin 10s linear infinite;
 }
 
 .squigglePinkAbout {
@@ -27,7 +29,7 @@
   width: 15%;
   left: 11%;
   bottom: -15px;
-  transform: rotate(-65deg)
+  animation: upRight 10s linear infinite;
 }
 
 .squiggleBlueSkills {
@@ -35,6 +37,7 @@
   bottom: 0;
   right: 10%;
   width: 20%;
+  animation: downRight 8s linear infinite;
 }
 
 
@@ -44,7 +47,8 @@
   left: 10%;
   width: 13%;
   z-index: 10;
-  transform: rotate(15deg);
+  transform: rotateX(15deg);
+  animation: spin 10s linear infinite;
 }
 
 .circlePurplePortfolio {
@@ -52,6 +56,7 @@
   right: 0;
   top:56px;
   width: 5%;
+  animation: grow 10s linear infinite;
 }
 
 .squigglePurplePortfolio {
@@ -59,6 +64,7 @@
   right: 40%;
   top: 38px;
   width: 15%;
+  animation: downRight 8s linear infinite;
 }
 
 .trianglePinkPortfolio2 {
@@ -66,6 +72,7 @@
   right: 60%;
   top: 0px;
   width: 15%;
+  animation: arch 15s linear infinite;
 }
 
 .squiggleBlueFooter {
@@ -73,14 +80,15 @@
   top: -24px;
   right: 55%;
   width: 15%;
-  transform: rotate(-60deg);
+  animation: upRight 8s linear infinite;
 }
 
 .trianglePinkFooter {
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: 136px;
   width: 7%;
+  animation: arch 15s linear infinite;
 }
 
 .circlePurpleFooter {
@@ -88,4 +96,5 @@
   bottom: 5px;
   right: 5px;
   width: 5%;
+  animation: grow 10s linear infinite;
 }

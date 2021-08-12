@@ -102,3 +102,7 @@ h2 {
   background-color: $tertAccent;
   color: $darkest;
 }
+
+.learnMore:active {
+  @include buttonActive;
+}

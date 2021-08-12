@@ -114,6 +114,10 @@ form {
   background-color: $primAccent;
 }
 
+.send:active {
+  @include buttonActive;
+}
+
 form {
   position: relative;
   input,

@@ -84,3 +84,19 @@
     transform: translateX(-30px) translateY(-30px);
   }
 }
+
+@keyframes floatFromRight {
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(5px);
+  }
+}

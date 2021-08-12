@@ -98,3 +98,14 @@
   width: 5%;
   animation: grow 10s linear infinite;
 }
+
+.toTop {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  animation: bounce 1s linear infinite;
+  i {
+    @include fontStyle(2rem, $tertAccent);
+  }
+}

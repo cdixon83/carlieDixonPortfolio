@@ -43,6 +43,10 @@
   }
 }
 
+.imgSkateEnter {
+  animation: floatFromRight 1.5s 1;
+}
+
 .skateTitle {
   position: absolute;
   transform: rotate(270deg);

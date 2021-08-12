@@ -28,3 +28,27 @@ const toggleMenu = () => {
 };
 
 hamButton.addEventListener("click", toggleMenu);
+
+// animate image entry
+
+// Create the observer
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // If the element is visible add the animation class
+      entry.target.classList.add('imgSkateEnter');
+    } else if (!entry.isIntersecting) {
+      // If the element is not visible remove the animation class
+      entry.target.classList.remove('imgSkateEnter');
+    }
+  });
+});
+
+// so I can add observer to other elements later
+const skateImage = observer;
+
+// Tell the observer which elements to track
+skateImage.observe(document.querySelector('.skateImage'));
+
+
+

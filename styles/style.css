@@ -410,6 +410,21 @@ h4 {
           animation: grow 10s linear infinite;
 }
 
+.toTop {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  -webkit-animation: bounce 1s linear infinite;
+          animation: bounce 1s linear infinite;
+}
+.toTop i {
+  font-size: 2rem;
+  color: #00e3ff;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -558,6 +573,13 @@ h2 {
   color: #06032f;
 }
 
+.learnMore:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
 .skills {
   padding-top: 125px;
 }
@@ -663,6 +685,11 @@ h2 {
   position: absolute;
   top: -63px;
   left: 20px;
+}
+
+.imgSkateEnter {
+  -webkit-animation: floatFromRight 1.5s 1;
+          animation: floatFromRight 1.5s 1;
 }
 
 .skateTitle {
@@ -957,6 +984,13 @@ form textarea {
 
 .send:hover {
   background-color: #4807db;
+}
+
+.send:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 2px;
 }
 
 form {
@@ -1400,5 +1434,37 @@ form textarea {
   50% {
     -webkit-transform: translateX(-30px) translateY(-30px);
             transform: translateX(-30px) translateY(-30px);
+  }
+}
+@-webkit-keyframes floatFromRight {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@keyframes floatFromRight {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@-webkit-keyframes bounce {
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+@keyframes bounce {
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
   }
 }

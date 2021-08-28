@@ -546,9 +546,22 @@ header nav {
 h1 {
   font-size: 3.2rem;
   color: #f1f2f4;
-  line-height: 1rem;
+  line-height: 3rem;
   letter-spacing: 1.3px;
-  margin: 200px 0 27px 0;
+  margin: 200px auto 27px auto;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #fb37bf;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.h1 {
+  width: 415px;
+  margin-inline: auto;
 }
 
 h2 {
@@ -1196,6 +1209,12 @@ form textarea {
 
   h1 {
     font-size: 2.2rem;
+    border-right: 0.2em solid #fb37bf;
+    line-height: 2rem;
+  }
+
+  .h1 {
+    width: 293px;
   }
 
   h2 {
@@ -1470,5 +1489,39 @@ form textarea {
   50% {
     -webkit-transform: translateY(5px);
             transform: translateY(5px);
+  }
+}
+/* The typing effect for h1*/
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fb37bf;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fb37bf;
   }
 }

@@ -83,8 +83,17 @@ header nav {
 }
 
 h1 {
-  @include fontStyle (3.2rem, $lightest);
-  margin: 200px 0 27px 0;
+  @include fontStyle (3.2rem, $lightest, 3rem);
+  margin: 200px auto 27px auto;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid $secAccent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+.h1 {
+  width:415px;
+  margin-inline: auto;
 }
 
 h2 {

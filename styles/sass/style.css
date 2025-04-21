@@ -1,0 +1,1250 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 125%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  max-width: 1150px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+p,
+h2,
+h3,
+h4,
+h5,
+button,
+input,
+textarea {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+
+p,
+a {
+  font-size: 0.6rem;
+  color: #06032f;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+}
+
+h3 {
+  font-size: 0.7rem;
+  color: #4807db;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+  padding-bottom: 8px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #06032f;
+  line-height: 1.6rem;
+  letter-spacing: 1.3px;
+}
+
+.about,
+.skills,
+.portTextCont,
+.gvText,
+.project2,
+.project3,
+.contactFlexCont {
+  position: relative;
+}
+
+.circleBlueAbout {
+  position: absolute;
+  width: 5%;
+  right: 9%;
+  bottom: 270px;
+  animation: grow 10s linear infinite;
+}
+
+.diamondPurpleAbout {
+  position: absolute;
+  width: 15%;
+  right: -6%;
+  bottom: 55px;
+  animation: spin 10s linear infinite;
+}
+
+.squigglePinkAbout {
+  position: absolute;
+  width: 15%;
+  left: 11%;
+  bottom: -15px;
+  animation: upRight 10s linear infinite;
+}
+
+.trianglePinkPortfolio {
+  position: absolute;
+  bottom: -5px;
+  left: 10%;
+  width: 13%;
+  z-index: 10;
+  transform: rotateX(15deg);
+  animation: spin 10s linear infinite;
+}
+
+.circlePurplePortfolio {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 5%;
+  animation: grow 10s linear infinite;
+}
+
+.squigglePurplePortfolio {
+  position: absolute;
+  right: 40%;
+  top: 38px;
+  width: 15%;
+  animation: downRight 8s linear infinite;
+}
+
+.trianglePinkPortfolio2 {
+  position: absolute;
+  right: 60%;
+  top: 0px;
+  width: 15%;
+  animation: arch 15s linear infinite;
+}
+
+.squiggleBlueFooter {
+  position: absolute;
+  top: -24px;
+  right: 55%;
+  width: 15%;
+  animation: upRight 8s linear infinite;
+}
+
+.trianglePinkFooter {
+  position: absolute;
+  top: 30px;
+  right: 136px;
+  width: 7%;
+  animation: arch 15s linear infinite;
+}
+
+.circlePurpleFooter {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 5%;
+  animation: grow 10s linear infinite;
+}
+
+.toTop {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  animation: bounce 1s linear infinite;
+}
+.toTop i {
+  font-size: 2rem;
+  color: #00e3ff;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.logoFlexCont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logoFlexCont p {
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+.logoImg {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.flexContNav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flexContNav li {
+  padding: 0 15px;
+  position: relative;
+}
+.flexContNav a {
+  font-size: 0.8rem;
+}
+.flexContNav .contactLi {
+  padding-right: 0;
+}
+.flexContNav li:after {
+  content: "";
+  width: 75%;
+  height: 8px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  z-index: -1;
+}
+.flexContNav li:hover:after {
+  background-color: #00e3ff;
+}
+
+.hamButton {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 17px;
+  right: 33px;
+}
+.hamButton i {
+  color: #06032f;
+}
+
+.hamButton:hover i {
+  color: #fb37bf;
+}
+
+.show {
+  display: none;
+}
+
+.heroImage {
+  background-image: url(../assets/Hero-NoText.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.heroContents {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: #f1f2f4;
+  line-height: 3rem;
+  letter-spacing: 1.3px;
+  margin: 200px auto 27px auto;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #fb37bf;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.h1 {
+  width: 415px;
+  margin-inline: auto;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #f1f2f4;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+  margin-left: 66px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.learnMore {
+  color: #f1f2f4;
+  background-color: #fb37bf;
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: #4807db 2px solid;
+  box-shadow: 1px 2px #fb37bf;
+}
+
+.learnMore:hover {
+  background-color: #00e3ff;
+  color: #06032f;
+}
+
+.learnMore:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+.skills {
+  padding-top: 125px;
+}
+
+.skillsTextCont {
+  margin-left: 18%;
+  margin-bottom: 30px;
+}
+
+.skillsFlexCont {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skillsInnerFlexCont {
+  width: 28%;
+  text-align: center;
+  margin: 25px 0;
+}
+.skillsInnerFlexCont i {
+  font-size: 100px;
+  color: #4807db;
+}
+
+.skillLogo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.about {
+  margin-top: 60px;
+  background-color: #f1f2f4;
+}
+
+.aboutFlexCont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
+}
+
+.aboutInnerFlexCont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aboutTextCont {
+  width: 55%;
+  position: relative;
+}
+.aboutTextCont p {
+  margin: 10px 0 10px 40px;
+  color: #787787;
+}
+
+.aboutOne:before {
+  content: "";
+  width: 2px;
+  height: 95px;
+  background-color: #787787;
+  position: absolute;
+  left: 0px;
+}
+
+.imgContSkate {
+  width: 40%;
+  position: relative;
+}
+.imgContSkate img {
+  position: absolute;
+  top: -63px;
+  left: 20px;
+}
+
+.imgSkateEnter {
+  animation: floatFromRight 1.5s 1;
+}
+
+.skateTitle {
+  position: absolute;
+  transform: rotate(270deg);
+  font-size: 0.5rem;
+  left: -107px;
+  top: 43px;
+  color: #787787;
+}
+
+.outterContDev {
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+}
+.outterContDev a {
+  position: absolute;
+  right: -110px;
+  bottom: 20%;
+  border-bottom: 1px solid transparent;
+}
+.outterContDev a:hover {
+  border-bottom: 1.5px solid #00e3ff;
+}
+
+.imgContDev {
+  position: relative;
+}
+.imgContDev img {
+  position: relative;
+  top: 50px;
+  box-shadow: 1px 1px 50px #787787;
+}
+
+.portfolio {
+  padding-top: 100px;
+}
+
+.portCont p {
+  color: #787787;
+}
+.portCont a:hover {
+  border-bottom: 1.5px solid #00e3ff;
+}
+
+.portTextCont {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.portTextCont h4 {
+  padding-bottom: 20px;
+}
+
+.portAnchors {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projectTextCont {
+  padding-top: 40px;
+}
+.projectTextCont h4 {
+  padding: 20px 0;
+}
+.projectTextCont li {
+  padding: 30px 30px 30px 0;
+}
+
+.builtWith {
+  text-transform: uppercase;
+}
+
+.pinkBG {
+  width: 100%;
+}
+
+.project1,
+.project2,
+.project3 {
+  position: relative;
+}
+
+.blueDots {
+  position: absolute;
+  z-index: -1;
+  top: -152px;
+  right: -26px;
+}
+
+.goodVibeDT {
+  position: absolute;
+  z-index: 1;
+  top: 75px;
+  left: -80px;
+  width: 70%;
+}
+
+.project2,
+.project3 {
+  padding-top: 75px;
+}
+
+.purpleSquiggles {
+  position: absolute;
+  z-index: 1;
+  bottom: -42px;
+  right: -49px;
+  width: 25%;
+}
+
+.helperDT {
+  position: absolute;
+  z-index: 1;
+  top: 135px;
+  right: -8%;
+  width: 50%;
+  box-shadow: 1px 1px 50px #787787;
+}
+
+.contact {
+  background-color: #f1f2f4;
+  margin-bottom: 100px;
+}
+.contact h2 {
+  color: #06032f;
+}
+.contact a:hover {
+  color: #4807db;
+}
+
+.contactFlexCont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+.contactInfo {
+  width: 60%;
+}
+.contactInfo h2 {
+  margin: 15px 0;
+}
+.contactInfo p {
+  margin: 5px 0;
+}
+
+.footerLogo {
+  width: 20%;
+}
+
+.moreContact {
+  width: 25%;
+}
+
+.email,
+.appointment {
+  padding-left: 45px;
+}
+
+.socialsNav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 45px;
+}
+.socialsNav a {
+  font-size: 0.9rem;
+}
+
+.contactTextCont {
+  position: relative;
+}
+
+.socialsNav:before,
+.email:before,
+.appointment:before {
+  content: "";
+  width: 20px;
+  height: 1.5px;
+  background-color: #787787;
+  position: absolute;
+}
+
+.socialsNav:before {
+  left: 0px;
+  top: 88px;
+}
+
+.email:before {
+  left: 0px;
+  top: 33px;
+}
+
+.appointment:before {
+  left: 0px;
+  top: 149px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  color: #787787;
+  line-height: 1rem;
+  letter-spacing: 1.3px;
+  margin-top: 15px;
+}
+
+.blogLink {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+form .name,
+form .formEmail {
+  width: calc(50% - 7.5px);
+}
+form .name {
+  margin-right: 15px;
+}
+form .message {
+  width: 100%;
+  margin: 15px 0;
+}
+form input,
+form textarea {
+  width: 100%;
+  background-color: #00e3ff;
+  border: #06032f solid 1px;
+}
+
+.send {
+  border: none;
+  color: #f1f2f4;
+  background-color: #fb37bf;
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: #4807db 2px solid;
+  box-shadow: 1px 2px #fb37bf;
+  width: 175px;
+}
+
+.send:hover {
+  background-color: #4807db;
+}
+
+.send:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+form {
+  position: relative;
+}
+form input,
+form textarea {
+  position: relative;
+  z-index: 10;
+}
+
+.squigglesPurpleFooter {
+  position: absolute;
+  z-index: 0;
+  left: -40px;
+  bottom: 60px;
+  width: 20%;
+}
+
+@media (max-width: 1000px) {
+  .heroImage {
+    height: 400px;
+  }
+
+  h1 {
+    margin-top: 125px;
+  }
+}
+@media (max-width: 750px) {
+  .heroImage {
+    height: 300px;
+  }
+
+  h1 {
+    margin-top: 10%;
+  }
+
+  .imgContSkate img {
+    top: 25%;
+  }
+
+  .skateTitle {
+    top: 48%;
+  }
+
+  .portfolio {
+    padding-top: 90px;
+  }
+
+  .contactInfo,
+.moreContact {
+    width: 45%;
+  }
+
+  .moreContact {
+    padding-top: 56px;
+  }
+
+  .squigglesPurpleFooter {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .logoFlexCont {
+    margin-top: 5px;
+  }
+
+  .flexContNav {
+    flex-direction: column;
+  }
+  .flexContNav li {
+    padding: 7px;
+  }
+  .flexContNav a:hover {
+    color: #fb37bf;
+  }
+
+  .menuShow {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    background-color: #00e3ff;
+    border-radius: 10px;
+    z-index: 5;
+  }
+
+  .menuHidden {
+    display: none;
+  }
+
+  .show {
+    display: block;
+    z-index: 10;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .heroImage {
+    background-image: url(../assets/Hero-Mobile.jpg);
+    background-size: cover;
+    margin-top: 25px;
+  }
+
+  .heroContents {
+    padding-top: 35px;
+  }
+
+  .outterContDev {
+    margin: 0 0 0 auto;
+    width: 50%;
+  }
+  .outterContDev a {
+    right: 0;
+    top: -55px;
+  }
+
+  .aboutTextCont {
+    width: 100%;
+  }
+
+  .imgContSkate {
+    width: 50%;
+  }
+  .imgContSkate img {
+    position: relative;
+    top: 0;
+  }
+
+  .imgContDev img {
+    top: -26px;
+  }
+
+  .skillsFlexCont {
+    justify-content: space-around;
+  }
+
+  .skillsTextCont {
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+
+  .goodVibeDT {
+    left: 0;
+    width: 60%;
+  }
+
+  .blueDots {
+    right: 0;
+    width: 45%;
+  }
+
+  .helperDT {
+    top: 46px;
+    right: 0;
+  }
+
+  .purpleSquiggles {
+    right: -2%;
+  }
+
+  .diamondPurpleAbout {
+    right: 20%;
+    bottom: -32px;
+  }
+
+  .circleBlueAbout {
+    bottom: 370px;
+  }
+}
+@media (max-width: 500px) {
+  .skillsInnerFlexCont i {
+    font-size: 50px;
+  }
+
+  .skillLogo {
+    width: 50px;
+  }
+
+  .contactInfo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .moreContact {
+    width: 56%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    border-right: 0.2em solid #fb37bf;
+    line-height: 2rem;
+  }
+
+  .h1 {
+    width: 293px;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  header h2 {
+    text-align: right;
+    margin-right: 3%;
+  }
+
+  .aboutTextCont p {
+    margin-left: 10px;
+  }
+
+  .imgContSkate p {
+    display: none;
+  }
+
+  .skillsTextCont {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  .portTextCont {
+    width: 100%;
+  }
+
+  .blueDots {
+    top: -32px;
+  }
+
+  .purpleSquiggles {
+    bottom: -11px;
+  }
+
+  .circleBlueAbout {
+    bottom: 30%;
+  }
+
+  .squiggleBlueFooter {
+    top: -2px;
+  }
+
+  .trianglePinkFooter {
+    right: 70px;
+  }
+}
+@keyframes spin {
+  10% {
+    transform: rotateY(36deg);
+  }
+  20% {
+    transform: rotateY(72deg);
+  }
+  30% {
+    transform: rotateY(108deg);
+  }
+  40% {
+    transform: rotateY(144deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  60% {
+    transform: rotateY(216deg);
+  }
+  70% {
+    transform: rotateY(252deg);
+  }
+  80% {
+    transform: rotateY(288deg);
+  }
+  90% {
+    transform: rotateY(324deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes arch {
+  0% {
+    transform: rotate(0deg) translateY(20px);
+  }
+  25% {
+    transform: rotate(90deg) translateY(40px);
+  }
+  50% {
+    transform: rotate(180deg) translateY(60px);
+  }
+  75% {
+    transform: rotate(270deg) translateY(40px);
+  }
+  100% {
+    transform: rotate(360deg) translateY(20px);
+  }
+}
+@keyframes grow {
+  0%, 100% {
+    transform: scale(0.5);
+  }
+  25%, 75% {
+    transform: scale(0.75);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes upRight {
+  0%, 100% {
+    transform: translateX(0px) translateY(0px) rotate(-65deg);
+  }
+  50% {
+    transform: translateX(30px) translateY(-30px) rotate(-65deg);
+  }
+}
+@keyframes downRight {
+  0%, 100% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(-30px) translateY(-30px);
+  }
+}
+@keyframes floatFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes bounce {
+  50% {
+    transform: translateY(5px);
+  }
+}
+/* The typing effect for h1*/
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fb37bf;
+  }
+}

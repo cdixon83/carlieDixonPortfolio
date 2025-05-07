@@ -339,15 +339,6 @@ h4 {
           animation: upRight 10s linear infinite;
 }
 
-.squiggleBlueSkills {
-  position: absolute;
-  bottom: 0;
-  right: 10%;
-  width: 20%;
-  -webkit-animation: downRight 8s linear infinite;
-          animation: downRight 8s linear infinite;
-}
-
 .trianglePinkPortfolio {
   position: absolute;
   bottom: -5px;
@@ -549,12 +540,9 @@ h1 {
   line-height: 3rem;
   letter-spacing: 1.3px;
   margin: 200px auto 27px auto;
-  overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #fb37bf;
-  /* The typwriter cursor */
-  white-space: nowrap;
-  /* Keeps the content on a single line */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #fb37bf; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
   -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
           animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -745,7 +733,7 @@ h2 {
 }
 
 .portfolio {
-  padding-top: 175px;
+  padding-top: 100px;
 }
 
 .portCont p {
@@ -917,6 +905,7 @@ h2 {
 
 .contactTextCont {
   position: relative;
+  width: 100%;
 }
 
 .socialsNav:before,
@@ -1031,7 +1020,6 @@ form textarea {
   .heroImage {
     height: 400px;
   }
-
   h1 {
     margin-top: 125px;
   }
@@ -1040,32 +1028,25 @@ form textarea {
   .heroImage {
     height: 300px;
   }
-
   h1 {
     margin-top: 10%;
   }
-
   .imgContSkate img {
     top: 25%;
   }
-
   .skateTitle {
     top: 48%;
   }
-
   .portfolio {
     padding-top: 90px;
   }
-
   .contactInfo,
-.moreContact {
+  .moreContact {
     width: 45%;
   }
-
   .moreContact {
     padding-top: 56px;
   }
-
   .squigglesPurpleFooter {
     display: none;
   }
@@ -1074,11 +1055,9 @@ form textarea {
   .wrapper {
     width: 95%;
   }
-
   .logoFlexCont {
     margin-top: 5px;
   }
-
   .flexContNav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1091,7 +1070,6 @@ form textarea {
   .flexContNav a:hover {
     color: #fb37bf;
   }
-
   .menuShow {
     display: block;
     position: absolute;
@@ -1101,30 +1079,24 @@ form textarea {
     border-radius: 10px;
     z-index: 5;
   }
-
   .menuHidden {
     display: none;
   }
-
   .show {
     display: block;
     z-index: 10;
   }
-
   .close {
     display: none;
   }
-
   .heroImage {
     background-image: url(../assets/Hero-Mobile.jpg);
     background-size: cover;
     margin-top: 25px;
   }
-
   .heroContents {
     padding-top: 35px;
   }
-
   .outterContDev {
     margin: 0 0 0 auto;
     width: 50%;
@@ -1133,11 +1105,9 @@ form textarea {
     right: 0;
     top: -55px;
   }
-
   .aboutTextCont {
     width: 100%;
   }
-
   .imgContSkate {
     width: 50%;
   }
@@ -1145,45 +1115,36 @@ form textarea {
     position: relative;
     top: 0;
   }
-
   .imgContDev img {
     top: -26px;
   }
-
   .skillsFlexCont {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-
   .skillsTextCont {
     margin-left: 10%;
     margin-bottom: 20px;
   }
-
   .goodVibeDT {
     left: 0;
     width: 60%;
   }
-
   .blueDots {
     right: 0;
     width: 45%;
   }
-
   .helperDT {
     top: 46px;
     right: 0;
   }
-
   .purpleSquiggles {
     right: -2%;
   }
-
   .diamondPurpleAbout {
     right: 20%;
     bottom: -32px;
   }
-
   .circleBlueAbout {
     bottom: 370px;
   }
@@ -1192,73 +1153,57 @@ form textarea {
   .skillsInnerFlexCont i {
     font-size: 50px;
   }
-
   .skillLogo {
     width: 50px;
   }
-
   .contactInfo {
     width: 80%;
     margin: 0 auto;
   }
-
   .moreContact {
     width: 56%;
     margin: 0 auto;
   }
-
   h1 {
     font-size: 2.2rem;
     border-right: 0.2em solid #fb37bf;
     line-height: 2rem;
   }
-
   .h1 {
     width: 293px;
   }
-
   h2 {
     font-size: 0.9rem;
   }
-
   header h2 {
     text-align: right;
     margin-right: 3%;
   }
-
   .aboutTextCont p {
     margin-left: 10px;
   }
-
   .imgContSkate p {
     display: none;
   }
-
   .skillsTextCont {
     margin-left: 0;
     margin-bottom: 5px;
   }
-
   .portTextCont {
     width: 100%;
   }
-
   .blueDots {
     top: -32px;
   }
-
   .purpleSquiggles {
     bottom: -11px;
   }
-
   .circleBlueAbout {
     bottom: 30%;
   }
-
   .squiggleBlueFooter {
     top: -2px;
   }
-
   .trianglePinkFooter {
     right: 70px;
   }
